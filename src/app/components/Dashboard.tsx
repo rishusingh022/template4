@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import DashboardImg from "../../assets/DashboardImg.png";
 const Dashboard = (props:any) => {
   return (
     <div className="bg-[#000000] pt-9 pr-19 pl-19 sm:pr-24 sm:pl-24">
@@ -42,7 +43,7 @@ const Dashboard = (props:any) => {
           </div>
           <div>
             <Image
-              src={props.imageURL}
+              src={DashboardImg}
               alt="Dashboard"
               width={600}
               height={600}

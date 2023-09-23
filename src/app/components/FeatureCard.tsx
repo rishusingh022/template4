@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 const FeatureCard = (props:any) => {
-  console.log(props)
   const [isHovered, setIsHovered] = React.useState(false);
   return (
     <div

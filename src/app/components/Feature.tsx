@@ -2,7 +2,6 @@
 
 import FeatureCard from "./FeatureCard";
 const Feature = (props:any) => {
-  console.log(props.features)
   return (
     <div className="bg-[#000000] w-full pt-32 pr-15 pl-15 sm:pr-20 sm:pl-20 py-10">
       <div className="flex flex-col gap-24">
