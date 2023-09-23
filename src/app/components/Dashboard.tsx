@@ -37,7 +37,7 @@ const Dashboard = (props:any) => {
           </svg>
         </div>
         <div className="py-10 gap-16 xl:gap-24 m-5 min-h-[686.51px] px-16 rounded-[20px] bg-gradient-to-b from-[#2A0A9A] via-[#804EBD] to-[#D2A6CA] flex xl:flex-row flex-col items-center">
-          <div className="w-full px-5 xl:w-[50%] h-[100%] flex flex-col justify-center items-center gap-[25px]">
+          <div className="w-full md:px-5 xl:w-[50%] h-[100%] flex flex-col justify-center items-center gap-[25px]">
             <div className="font-500 text-4xl md:text-5xl leading-[50px] sl:text-7xl xl:leading-[70px] text-white">{props.title}</div>
             <div className="font-400 text-base xl:text-xl leading-[28px] text-[#E5E7EB]">{props.description}</div>
           </div>
