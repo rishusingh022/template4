@@ -1,0 +1,80 @@
+{
+   "templateId": {
+      "title":"Impactful Stories. Made effortlessly",
+      "description":"Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "landingPageUrl":"https://storage.googleapis.com/ftest-image/Image%20(2).png",
+      "USPTitle":"Start closer to the finish line with templates made by industry experts",
+      "USPs": [
+         {
+            "USPImageURL":"https://storage.googleapis.com/ftest-image/USPIImage1.png",
+            "USPTitle":"Templated for everything",
+            "USPDescription":"Whether it’s hands or pitch decks, start closer to the finish line with a template"
+         },
+         {
+            "USPImageURL":"https://storage.googleapis.com/ftest-image/USPImage2.png",
+            "USPTitle":"Verified by expert",
+            "USPDescription":"Templates created by the leading experts to help you deliver a powerful story"
+         },
+         {
+            "USPImageURL":"https://storage.googleapis.com/ftest-image/USPImage3.png",
+            "USPTitle":"Contextual guidance",
+            "USPDescription":"Best practice guidance is baked into the template - without leaving Chronicle"
+         }
+      ],
+      "featureTile":"Under the hood ⚡️ Made for speed and zero bottlenecks.",
+      "features":[
+         {
+            "featureImageURL":"https://storage.googleapis.com/ftest-image/Feature1.png",
+            "featureDescription":"Keep your identity consistent and your resources in sync.",
+            "featureTile":"Identities. "
+         },
+         {
+            "featureImageURL":"https://storage.googleapis.com/ftest-image/Feature2.png",
+            "featureDescription":"Edit with your team in real-time or invite view only guests.",
+            "featureTile":"Collaboration. "
+         },
+         {
+            "featureImageURL":"https://storage.googleapis.com/ftest-image/Feature3.png",
+            "featureDescription":"Create and save custom slide layouts with easy drag & drop blocks.",
+            "featureTile":"Blocks. "
+         },
+         {
+            "featureImageURL":"https://storage.googleapis.com/ftest-image/Feature4.png",
+            "featureDescription":"Import your slides dynamically from other decks for rapid creation.",
+            "featureTile":"Merge. "
+         },
+         {
+            "featureImageURL":"https://storage.googleapis.com/ftest-image/Feature5.png",
+            "featureDescription":"Design flexible layouts for any device and every screen.",
+            "featureTile":"Layouts. "
+         },
+         {
+            "featureImageURL":"https://storage.googleapis.com/ftest-image/Feature6.png",
+            "featureDescription":"Use the smart asset library to manage your content with ease.",
+            "featureTile":"Assets. "
+         }
+         ,
+         {
+            "featureImageURL":"https://storage.googleapis.com/ftest-image/Feature7.png",
+            "featureDescription":"Get real-time analytics about your presentation decks.",
+            "featureTile":"Insights. "
+         },
+         {
+            "featureImageURL":"https://storage.googleapis.com/ftest-image/Feature8.png",
+            "featureDescription":"Simply admin your team, workspace and integrations.",
+            "featureTile":"Controls. "
+         }
+      ],
+      "pricing": {
+        "Title":"Add your card to get 50% on paid package after launch",
+        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.",
+        "ImagURL":"https://storage.googleapis.com/ftest-image/PricingImageURL.png"
+      },
+      "Newsletter": {
+        "title": "Subscribe to our newsletter",
+        "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.",
+        "buttonText": "Notify me",
+        "placeholder": "Enter your email"
+      }
+   }
+}
