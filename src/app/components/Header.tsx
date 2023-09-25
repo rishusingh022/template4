@@ -2,11 +2,9 @@
 import { useState } from "react";
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon } from "@heroicons/react/24/outline";
 
 const Navbar = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <div className="z-10 w-full bg-gray-900 h-[88px] p-1 pr-15 pl-15 lg:pr-20 lg:pl-20 text-white">
       <div className="flex justify-between items-center px-4 sm:px-10 py-4">
@@ -40,31 +38,18 @@ const Navbar = () => {
             />
           </svg>
           <div className="hidden lg:flex gap-4 py-4">
-            <div>Feature</div>
-            <div>Pricing</div>
+            <div className="font-inter font-medium">Feature</div>
+            <div className="font-inter font-medium">Pricing</div>
           </div>
         </div>
         <div className="hidden lg:flex gap-4 items-center justify-center">
-          <div className="bg-[#282F51] text-white text-center h-[42px] rounded-[100px] py-[9px] px-[17px]">
+          <div className="bg-[#282F51] font-inter font-medium text-white text-center h-[42px] rounded-[100px] py-[9px] px-[17px]">
             Login
           </div>
-          <div className="bg-[#8B5CF6] text-white text-center h-[42px] rounded-[100px] py-[9px] px-[17px]">
+          <div className="bg-[#8B5CF6] font-inter font-medium text-white text-center h-[42px] rounded-[100px] py-[9px] px-[17px]">
             Sign up
           </div>
         </div>
-        {/* <div className="flex lg:hidden">
-          <button
-            type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-            onClick={() => setMobileMenuOpen(true)}
-          >
-            <span className="sr-only">Open main menu</span>
-            <Bars3Icon
-              className="h-10 w-10 text-[#8B5CF6]"
-              aria-hidden="true"
-            />
-          </button>
-        </div> */}
         <Popover className="relative lg:hidden">
           <Popover.Button className="inline-flex items-cente text-sm font-semibold leading-6 text-gray-900">
             <Bars3Icon
@@ -85,12 +70,12 @@ const Navbar = () => {
             <Popover.Panel className="absolute left-1/2 z-10 mt-[5px] flex w-screen max-w-min -translate-x-3/4 px-4">
               <div className="bg-gray-800">
                 <div className="flex flex-col gap-2 justify-center items-center p-2">
-                  <div className="cursor-pointer">Feature</div>
-                  <div className="cursor-pointer">Pricing</div>
-                  <div className="bg-[#282F51] cursor-pointer text-white w-[100px] text-center h-[30px] rounded-[100px]">
+                  <div className="cursor-pointer font-inter font-medium">Feature</div>
+                  <div className="cursor-pointer font-inter font-medium">Pricing</div>
+                  <div className="bg-[#282F51] font-inter font-medium cursor-pointer text-white w-[100px] text-center h-[30px] rounded-[100px]">
                     Login
                   </div>
-                  <div className="bg-[#8B5CF6] cursor-pointer text-white w-[100px] text-center h-[30px] rounded-[100px]">
+                  <div className="bg-[#8B5CF6] font-inter font-medium cursor-pointer text-white w-[100px] text-center h-[30px] rounded-[100px]">
                     Sign up
                   </div>
                 </div>

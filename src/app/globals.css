@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../../public/font/SFPRODISPLAYREGULAR.OTF') format('opentype');
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;

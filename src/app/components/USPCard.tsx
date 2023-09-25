@@ -25,10 +25,10 @@ const USPCard = (props:any) => {
           />
         </div>
         <div className="flex flex-col gap-[20px]">
-          <div className="font-700 text-2xl leading-6 text-center">
+          <div className="font-SFProDisplay font-700 text-2xl leading-6 text-center">
             {props.title}
           </div>
-          <div className="text-[#ADADAD] font-Lorin font-normal text-base leading-6 tracking-tight text-center">
+          <div className="font-SFProDisplay text-[#ADADAD] font-normal text-base leading-6 tracking-tight text-center">
             {props.description}
           </div>
         </div>

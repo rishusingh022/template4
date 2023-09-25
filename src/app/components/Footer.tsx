@@ -86,7 +86,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-[16px] leading-5 text-gray-500">
+          <p className="font-inter font-normal text-center leading-5 text-gray-500">
             &copy; 2020 Workflow, Inc. All rights reserved.
           </p>
         </div>

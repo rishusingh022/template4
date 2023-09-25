@@ -10,12 +10,14 @@ const Feature = (props:any) => {
         </div>
         <div className="text-white xl:px-[10%] flex flex-wrap justify-center gap-2">
           {props.features.map((item:any, index:string) => {
+            const indexAsInt = parseInt(index, 10);
+            console.log(indexAsInt);
             return (
               <FeatureCard
                 key={index}
+                itemNumber={indexAsInt}
                 title={item.featureTile}
                 description={item.featureDescription}
-                imageURL={item.featureImageURL}
               />
             );
           })}
