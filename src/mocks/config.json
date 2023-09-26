@@ -34,16 +34,6 @@
             "featureTile":"Collaboration. "
          },
          {
-            "featureImageURL":"https://storage.googleapis.com/ftest-image/Feature3.png",
-            "featureDescription":"Create and save custom slide layouts with easy drag & drop blocks.",
-            "featureTile":"Blocks. "
-         },
-         {
-            "featureImageURL":"https://storage.googleapis.com/ftest-image/Feature4.png",
-            "featureDescription":"Import your slides dynamically from other decks for rapid creation.",
-            "featureTile":"Merge. "
-         },
-         {
             "featureImageURL":"https://storage.googleapis.com/ftest-image/Feature5.png",
             "featureDescription":"Design flexible layouts for any device and every screen.",
             "featureTile":"Layouts. "
@@ -53,17 +43,7 @@
             "featureDescription":"Use the smart asset library to manage your content with ease.",
             "featureTile":"Assets. "
          }
-         ,
-         {
-            "featureImageURL":"https://storage.googleapis.com/ftest-image/Feature7.png",
-            "featureDescription":"Get real-time analytics about your presentation decks.",
-            "featureTile":"Insights. "
-         },
-         {
-            "featureImageURL":"https://storage.googleapis.com/ftest-image/Feature8.png",
-            "featureDescription":"Simply admin your team, workspace and integrations.",
-            "featureTile":"Controls. "
-         }
+         
       ],
       "pricing": {
         "Title":"Add your card to get 50% on paid package after launch",

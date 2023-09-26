@@ -8,7 +8,7 @@ const Feature = (props:any) => {
         <div className="flex flex-col justify-center items-center">
           <div className="text-white max-w-[506px] font-inter font-medium text-3xl lg:text-4xl xl:text-5xl leading-70 tracking-minus-4 text-center">{props.title}</div>
         </div>
-        <div className="text-white xl:px-[10%] flex flex-wrap justify-center gap-2">
+        <div className="text-white xl:px-[20%] flex flex-wrap justify-center gap-5">
           {props.features.map((item:any, index:string) => {
             const indexAsInt = parseInt(index, 10);
             return (
