@@ -1,40 +1,14 @@
 "use client";
 import Image from "next/image";
-import DashboardImg from "../../assets/DashboardImg.png";
+import DashboardImg from "../../../public/template5_heroSection_image.png";
+import SvgIcon from '../../../public/template5_heroSection_icon.svg';
+
 const Dashboard = (props:any) => {
   return (
-    <div className="bg-[#000000] pt-9 pr-19 pl-19 sm:pr-24 sm:pl-24">
-      <div className="p-2 rounded-3xl border min-h-[754px] border-[#3E3E3E] flex flex-col mx-2">
+    <div className="bg-[#000000] pt-9 pr-19 pl-19 sm:pr-24 sm:pl-24 flex justify-center items-center">
+      <div className="max-w-[1400px] p-2 rounded-3xl border min-h-[754px] border-[#3E3E3E] flex flex-col mx-2">
         <div className="pt-5 pl-5">
-          <svg
-            width="46"
-            height="10"
-            viewBox="0 0 46 10"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <ellipse
-              cx="4.9918"
-              cy="5.03313"
-              rx="4.49864"
-              ry="4.82097"
-              fill="#BA0E0E"
-            />
-            <ellipse
-              cx="22.9864"
-              cy="5.03313"
-              rx="4.49864"
-              ry="4.82097"
-              fill="#EF930A"
-            />
-            <ellipse
-              cx="40.9808"
-              cy="5.03313"
-              rx="4.49864"
-              ry="4.82097"
-              fill="#0CCB2A"
-            />
-          </svg>
+        <Image src={SvgIcon} width={43.75} height={40} alt="logo" />
         </div>
         <div className="py-10 gap-16 xl:gap-24 m-5 min-h-[686.51px] px-16 rounded-[20px] bg-gradient-to-b from-[#2A0A9A] via-[#804EBD] to-[#D2A6CA] flex xl:flex-row flex-col items-center">
           <div className="w-full md:px-5 xl:w-[50%] h-[100%] flex flex-col justify-center items-center gap-[25px]">

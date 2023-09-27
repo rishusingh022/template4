@@ -1,0 +1,186 @@
+{
+  "navbar": {
+    "navitems": [
+      {
+        "id": "hbea4mv6pu",
+        "itemName": "Feature"
+      },
+      {
+        "id": "iKu1vghb0h",
+        "itemName": "Pricing"
+      }
+    ],
+    "lightLogo": "/template5_logo.png",
+    "darkLogo": "/template5_logo.png"
+  },
+  "hero_section": {
+    "headline": "Impactful Stories. Made effortlessly",
+    "sub_headline": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+    "hero_cta": false
+  },
+  "USP": {
+    "title":"Start closer to the finish line with templates made by industry experts",
+    "USPs": [
+      {
+        "id":"ddbwdqdq",
+        "title":"Templated for everything",
+        "desc":"Whether it’s hands or pitch decks, start closer to the finish line with a template"
+      },
+      {
+        "id":"frg42daw",
+        "title":"Verified by expert",
+        "desc":"Templates created by the leading experts to help you deliver a powerful story"
+      },
+      {
+        "id":"2ecdef4d",
+        "title":"Contextual guidance",
+        "desc":"Best practice guidance is baked into the template - without leaving Chronicle"
+      }
+    ]
+  },
+  "feature": {
+    "title":"Under the hood ⚡️ Made for speed and zero bottlenecks.",
+    "features":[
+      {
+        "id":"29e838rhf",
+        "desc":"Keep your identity consistent and your resources in sync.",
+        "title":"Identities. "
+      },
+      {
+        "id":"2ecdef4d",
+        "desc":"Edit with your team in real-time or invite view only guests.",
+        "title":"Collaboration. "
+      },
+      {
+        "id":"2ue2hen",
+        "desc":"Design flexible layouts for any device and every screen.",
+        "title":"Layouts. "
+      },
+      {
+        "id":"chuwfhvfg",
+        "desc":"Use the smart asset library to manage your content with ease.",
+        "title":"Assets."
+      }
+    ]
+  },
+  "add_card": {
+    "title": "Add your card to get 50% on paid package after launch",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis."
+  },
+  "waitlist": {
+    "title": "Subscribe to our newsletter",
+    "subtitle": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat."
+  },
+  "choose_plan": {
+    "title":"Simple pricing for everyone",
+    "subtitle":"Start building for free, then add a site plan to go live. Account plans unlock additional features.",
+    "pricing": [
+      {
+        "id": "fImKiQOPJn18PJEaf89xt36hQktavqsE",
+        "level": "Personal",
+        "price": 12,
+        "description": "All the basics for starting a new businesss",
+        "features": [
+          {
+            "id": "ddbwdqdq",
+            "feature": "Potenti felis, in cras at at ligula nunc."
+          },
+          {
+            "id": "2ue2hen",
+            "feature": "Orci neque eget pellentesque."
+          }
+        ]
+      },
+      {
+        "id": "dJbPgFZpOdqnaBvtn7JRAE9eiVcINX7V",
+        "level": "Startup",
+        "price": 32,
+        "description": "All the basics for starting a new businesss",
+        "features": [
+          {
+            "id": "2ecdef4d",
+            "feature": "Potenti felis, in cras at at ligula nunc."
+          },
+          {
+            "id": "frg42daw",
+            "feature": "Orci neque eget pellentesque."
+          },
+          {
+            "id": "chuwfhwhf",
+            "feature": "Donec mauris sit in eu tincidunt etiam."
+          },
+          {
+            "id": "chuwfhvfg",
+            "feature": "Faucibus volutpat magna."
+          }
+        ]
+      },
+      {
+        "id": "5635GTT3ioj4VFnKjQCfEiFi1FbbkpsJ",
+        "level": "Enterprise",
+        "price": 52,
+        "description": "All the basics for starting a new business",
+        "features": [
+          {
+            "id": "29e838rhf",
+            "feature": "Potenti felis, in cras at at ligula nunc."
+          },
+          {
+            "id": "q3udwecnwe",
+            "feature": "Orci neque eget pellentesque."
+          },
+          {
+            "id": "ladjhdd23",
+            "feature": "Donec mauris sit in eu tincidunt etiam."
+          },
+          {
+            "id": "ladjhdd32",
+            "feature": "Faucibus volutpat magna."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": [
+      {
+        "key": "2F433343E98sdf",
+        "platform": "instagram",
+        "link": "#"
+      },
+      {
+        "key": "2F433343E9sdfs",
+        "platform": "facebook",
+        "link": "#"
+      },
+      {
+        "key": "2F433343E9vdsg",
+        "platform": "twitter",
+        "link": "#"
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "imageURL": "/template5_testimonial1.png",
+      "name": "James Clobing",
+      "designation": "Co founder",
+      "testimonial": "Cofactory helped me devoloped an incrediable outreach on the internet."
+    },
+    {
+      "imageURL": "/template5_testimonial2.png",
+      "name": "Jane Doe",
+      "designation": "tester",
+      "testimonial": "I highly recommend this service!"
+    },
+    {
+      "imageURL": "/template5_testimonial1.png",
+      "name": "Devops",
+      "designation": "developer",
+      "testimonial": "Best product in the world!"
+    }
+  ],
+  "deployment": {
+    "domain": "example.ftest.ai"
+  }
+}

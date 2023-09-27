@@ -1,26 +1,28 @@
 "use client";
 
-import Image from 'next/image'
-import Navbar from './components/Header'
+import Navbar from './components/Navbar'
 import Newsletter from './components/Newsletter'
 import Footer from './components/Footer'
-import HorizontalImageCard from './components/HorizontalCard'
+import Cta from './components/Cta'
 import Feature from './components/Feature'
 import USP from './components/USP'
-import Dashboard from './components/Dashboard'
-import config from '../mocks/config.json'
+import Hero from './components/Hero'
+import Testimonials from './components/Testimonials';
+import Pricing from './components/Pricing';
+import template4Data from '../../data.json';
 
 export default function Home() {
-  const data = config.templateId
   return (
     <>
-    <Navbar />
-    <Dashboard title={config.templateId.title} description={config.templateId.description} imageURL={config.templateId.landingPageUrl} />
-    <USP title={data.USPTitle} USP={data.USPs} />
-    <Feature title={data.featureTile} features={data.features} />
-    <HorizontalImageCard title={data.pricing.Title} description={data.pricing.Description} imageURL={data.pricing.ImagURL}/>
-    <Newsletter heading={data.Newsletter.title} description={data.Newsletter.description} buttontext={data.Newsletter.buttonText} placeholderValue={data.Newsletter.placeholder}/>
-    <Footer />
+    <Navbar logo={template4Data?.navbar?.lightLogo} navItems={template4Data?.navbar?.navitems} />
+    <Hero title={template4Data?.hero_section?.headline} description={template4Data?.hero_section?.sub_headline} />
+    <USP title={template4Data?.USP?.title} USP={template4Data?.USP?.USPs} />
+    <Feature title={template4Data?.feature?.title} features={template4Data?.feature?.features} />
+    <Testimonials testimonials={template4Data?.testimonials} />
+    <Pricing plans={template4Data?.choose_plan?.pricing} title={template4Data?.choose_plan?.title} subtitle={template4Data?.choose_plan?.subtitle} />
+    <Cta title={template4Data?.add_card.title} description={template4Data?.add_card.desc}/>
+    <Newsletter heading={template4Data?.waitlist?.title} description={template4Data?.waitlist?.subtitle} />
+    <Footer socials={template4Data?.footer.socials} />
     </>
   )
 }

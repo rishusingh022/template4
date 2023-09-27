@@ -36,12 +36,19 @@ const navigation = [
   },
 ];
 
-export default function Footer() {
+export default function Footer(props: any) {
+  const { socials } = props;
+
+  const filteredNavigation = navigation.filter((item) =>
+    socials.some(
+      (s: any) => s.platform.toLowerCase() === item.name.toLowerCase()
+    )
+  );
   return (
     <footer className="bg-[#000000] pr-19 pl-19 sm:pr-24 sm:pl-24 py-6">
-      <div className="mx-auto md:flex md:items-center md:justify-between lg:gap-5">
+      <div className="mx-auto max-w-[1400px] md:flex md:items-center md:justify-between lg:gap-5">
         <div className="flex justify-center space-x-6 md:order-2">
-          {navigation.map((item) => (
+          {filteredNavigation.map((item) => (
             <a
               key={item.name}
               href={item.href}
@@ -53,9 +60,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
-          <p className="font-inter font-normal text-center leading-5 text-gray-500">
-            
-          </p>
+          <p className="font-inter font-normal text-center leading-5 text-gray-500"></p>
         </div>
       </div>
     </footer>

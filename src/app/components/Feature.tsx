@@ -15,8 +15,8 @@ const Feature = (props:any) => {
               <FeatureCard
                 key={index}
                 itemNumber={indexAsInt}
-                title={item.featureTile}
-                description={item.featureDescription}
+                title={item.title}
+                description={item.desc}
               />
             );
           })}
