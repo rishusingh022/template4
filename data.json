@@ -10,8 +10,8 @@
         "itemName": "Pricing"
       }
     ],
-    "lightLogo": "/template5_logo.png",
-    "darkLogo": "/template5_logo.png"
+    "lightLogo": "/template3_logo.png",
+    "darkLogo": "/template3_logo.png"
   },
   "hero_section": {
     "headline": "Impactful Stories. Made effortlessly",
@@ -162,19 +162,19 @@
   },
   "testimonials": [
     {
-      "imageURL": "/template5_testimonial1.png",
+      "imageURL": "/template3_testimonial1.png",
       "name": "James Clobing",
       "designation": "Co founder",
       "testimonial": "Cofactory helped me devoloped an incrediable outreach on the internet."
     },
     {
-      "imageURL": "/template5_testimonial2.png",
+      "imageURL": "/template3_testimonial2.png",
       "name": "Jane Doe",
       "designation": "tester",
       "testimonial": "I highly recommend this service!"
     },
     {
-      "imageURL": "/template5_testimonial1.png",
+      "imageURL": "/template3_testimonial1.png",
       "name": "Devops",
       "designation": "developer",
       "testimonial": "Best product in the world!"
